@@ -1,6 +1,6 @@
 
 //Handle HTTP route GET / and POST / ie home
-function homeRoute(request,response){ 
+function homeRoute(request,response){
 
   //if url is present look for '/', then run rest
   if(request.url === '/'){

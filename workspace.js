@@ -1,6 +1,6 @@
 
 var router = require('./router.js');
-var profile = require('./profile.js'); 
+var profile = require('./profile.js');
 //create a web server. from Nodejs.org
 var http = require('http');
 http.createServer(function(request,response){
